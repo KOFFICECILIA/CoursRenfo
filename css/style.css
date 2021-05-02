@@ -179,7 +179,9 @@ h4 a{
 	background: url(../images/img-bg-5.jpg) no-repeat scroll center top;
 }
 .page-header.three{
-	background: url(../images/img-bg-6.jpg) no-repeat scroll center top;
+	background-image: linear-gradient(to bottom, rgba(7, 7, 7, 0.753), rgba(7, 7, 7, 0.753)),
+    url('../images/banner.jpg');
+	background-position: center;
 }
 .page-header.four{
 	background-image: linear-gradient(to bottom, rgba(7, 7, 7, 0.753), rgba(7, 7, 7, 0.753)),
@@ -645,11 +647,22 @@ ul.address-info li {
     text-transform: uppercase;
 	text-align:center;
 }
-.widget .course-details > ul > li.course-price > strong {
+.widget .course-details > ul > li.course-price > strong, .price {
     color: #dc8e1f;
     display: inline-block;
     padding-top: 10px;
 }
+
+.text-col{
+	color: #1bb4b9;
+	font-weight: bold;
+}
+
+.price{
+	margin-left: 80px;
+	font-weight: bold;
+}
+
 .widget .course-details li {
     font-size: 15px;
     padding: 6px 0;

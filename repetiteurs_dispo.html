@@ -30,9 +30,6 @@
 
 <!-- Animations -->
 <link href="js/animations/css/animations.min.css" rel="stylesheet" type="text/css" media="all" />
-
-<!-- forms -->
-<link rel="stylesheet" href="js/form/css/sky-forms.css" type="text/css" media="all">
 </head>
 <body>
 <div class="site-wrapper" style="position: relative;">
@@ -76,7 +73,7 @@
                   <ul class="nav navbar-nav">
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="about-us.html">A propos</a></li>
-                    <li><a href="repetiteurs_dispo.html">Répétiteurs</a> <span class="arrow"></span>
+                    <li class="active"><a href="repetiteurs_dispo.html">Répétiteurs</a> <span class="arrow"></span>
                       <ul class="dm-align-2">
                         <li><a href="register.html"><i class="fa fa-angle-right"></i> Inscription</a></li>
                         <li><a href="repetiteurs_dispo.html"><i class="fa fa-angle-right"></i> Disponibles</a></li>
@@ -95,85 +92,116 @@
     <!--end menu--> 
   </div>
   <div class="clearfix"></div>
-  <div class="page-header four">
+  <div class="page-header three">
     <div class="container">
       <div class="col-md-6 pull-left">
-        <h3>Connexion</h3>
-        <h4>Connexion de l'utilisateur ici...!</h4>
+        <h3>Répétiteurs</h3>
+        <h4>Les répétiteurs disponibles</h4>
       </div>
       <div class="col-md-6 pull-right">
-        <div class="breadcrumbs"><a href="index.html">Accueil</a> <i>/</i> Connexion</div>
+        <div class="breadcrumbs"><a href="index.html">Accueil</a> <i>/</i> Répétiteurs disponibles</div>
       </div>
     </div>
   </div>
   <!-- end page header -->
   <div class="clearfix"></div>
-  <div class="section-lg counters m-bottom4">
+  <div class="section-lg counters">
     <div class="container">
       <div class="row">
-        <div class="col-md-10 col-md-offset-1 sec-heading text-center">
-          <div class="row">
-            <div class="login_form">
-              <form class="sky-form" id="sky-form" action="index.html" novalidate>
-                <header class="font-slim">Login form</header>
-                <fieldset>
-                  <div class="section">
-                    <div class="row">
-                      <label class="label col col-4">E-mail</label>
-                      <div class="col col-8">
-                        <label class="input"> <i class="icon-append fa fa-user"></i>
-                          <input type="email" name="email">
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="section">
-                    <div class="row">
-                      <label class="label col col-4">Password</label>
-                      <div class="col col-8">
-                        <label class="input"> <i class="icon-append fa fa-lock"></i>
-                          <input type="password" name="password">
-                        </label>
-                        <div class="note"><a class="modal-opener" href="#sky-form2">Forgot password?</a></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="section">
-                    <div class="row">
-                      <div class="col col-4"></div>
-                      <div class="col col-8">
-                        <label class="checkbox">
-                          <input type="checkbox" checked="" name="remember">
-                          <i></i>Keep me logged in</label>
-                      </div>
-                    </div>
-                  </div>
-                </fieldset>
-                <footer>
-                  <div class="fright"> <a class="button button-secondary" href="registration.html">Register</a>
-                    <button class="button" type="submit">Log in</button>
-                  </div>
-                </footer>
-              </form>
+        <div class="col-lg-4 col-md-4">
+          <div class="cource-box"><a href="#"><img class="img-responsive" src="images/member1.jpg" alt=""></a>
+            <div class="cource-text">
+              <h4><a href="#">Mlle KOFFI AMENAN AMI</a> <span>$195</span></h4>
+              <p>Disciplines enseigées: <span>Math-Physique-Svt</span></p>
+              <p>Niveau enseigé: <span>6ieme à la 3ieme</span></p>
+              <p>Quartiers Visés: <span>COCODY-ANGRE-YOPOUGON</span></p>
+              <a href="details_repet.html" class="btn btn-small">Plus</a> 
             </div>
-            <form class="sky-form sky-form-modal" id="sky-form2" action="demo-recovery.php" novalidate>
-              <header>Password recovery</header>
-              <fieldset>
-                <div class="section">
-                  <label class="label">E-mail</label>
-                  <label class="input"> <i class="icon-append icon-user"></i>
-                    <input type="email" id="email" name="email">
-                  </label>
-                </div>
-              </fieldset>
-              <footer>
-                <button class="button" name="submit" type="submit">Submit</button>
-                <a class="button button-secondary modal-closer" href="#">Close</a> </footer>
-              <div class="message"> <i class="icon-ok"></i>
-                <p>Your request successfully sent!<br>
-                  <a class="modal-closer" href="#">Close window</a></p>
-              </div>
-            </form>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="cource-box"><a href="#"><img class="img-responsive" src="images/member1.jpg" alt=""></a>
+            <div class="cource-text">
+              <h4><a href="#">Mlle KOFFI AMENAN AMI</a> <span>$195</span></h4>
+              <p>Disciplines enseigées: <span>Math-Physique-Svt</span></p>
+              <p>Niveau enseigé: <span>6ieme à la 3ieme</span></p>
+              <p>Quartiers Visés: <span>COCODY-ANGRE-YOPOUGON</span></p>
+              <a href="details_repet.html" class="btn btn-small">Plus</a> 
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="cource-box"><a href="#"><img class="img-responsive" src="images/member1.jpg" alt=""></a>
+            <div class="cource-text">
+              <h4><a href="#">Mlle KOFFI AMENAN AMI</a> <span>$195</span></h4>
+              <p>Disciplines enseigées: <span>Math-Physique-Svt</span></p>
+              <p>Niveau enseigé: <span>6ieme à la 3ieme</span></p>
+              <p>Quartiers Visés: <span>COCODY-ANGRE-YOPOUGON</span></p>
+              <a href="details_repet.html" class="btn btn-small">Plus</a> </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="cource-box"><a href="#"><img class="img-responsive" src="images/member1.jpg" alt=""></a>
+            <div class="cource-text">
+              <h4><a href="#">Mlle KOFFI AMENAN AMI</a> <span>$195</span></h4>
+              <p>Disciplines enseigées: <span>Math-Physique-Svt</span></p>
+              <p>Niveau enseigé: <span>6ieme à la 3ieme</span></p>
+              <p>Quartiers Visés: <span>COCODY-ANGRE-YOPOUGON</span></p>
+              <a href="details_repet.html" class="btn btn-small">Plus</a> </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="cource-box"><a href="#"><img class="img-responsive" src="images/member1.jpg" alt=""></a>
+            <div class="cource-text">
+              <h4><a href="#">Mlle KOFFI AMENAN AMI</a> <span>$195</span></h4>
+              <p>Disciplines enseigées: <span>Math-Physique-Svt</span></p>
+              <p>Niveau enseigé: <span>6ieme à la 3ieme</span></p>
+              <p>Quartiers Visés: <span>COCODY-ANGRE-YOPOUGON</span></p>
+              <a href="details_repet.html" class="btn btn-small">Plus</a> </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="cource-box"><a href="#"><img class="img-responsive" src="images/member1.jpg" alt=""></a>
+            <div class="cource-text">
+              <h4><a href="#">Mlle KOFFI AMENAN AMI</a> <span>$195</span></h4>
+              <p>Disciplines enseigées: <span>Math-Physique-Svt</span></p>
+              <p>Niveau enseigé: <span>6ieme à la 3ieme</span></p>
+              <p>Quartiers Visés: <span>COCODY-ANGRE-YOPOUGON</span></p>
+              <a href="details_repet.html" class="btn btn-small">Plus</a> 
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="cource-box"><a href="#"><img class="img-responsive" src="images/member1.jpg" alt=""></a>
+            <div class="cource-text">
+              <h4><a href="#">Mlle KOFFI AMENAN AMI</a> <span>$195</span></h4>
+              <p>Disciplines enseigées: <span>Math-Physique-Svt</span></p>
+              <p>Niveau enseigé: <span>6ieme à la 3ieme</span></p>
+              <p>Quartiers Visés: <span>COCODY-ANGRE-YOPOUGON</span></p>
+              <a href="details_repet.html" class="btn btn-small">Plus</a> 
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="cource-box"><a href="#"><img class="img-responsive" src="images/member1.jpg" alt=""></a>
+            <div class="cource-text">
+              <h4><a href="#">Mlle KOFFI AMENAN AMI</a> <span>$195</span></h4>
+              <p>Disciplines enseigées: <span>Math-Physique-Svt</span></p>
+              <p>Niveau enseigé: <span>6ieme à la 3ieme</span></p>
+              <p>Quartiers Visés: <span>COCODY-ANGRE-YOPOUGON</span></p>
+              <a href="details_repet.html" class="btn btn-small">Plus</a> 
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="cource-box"><a href="#"><img class="img-responsive" src="images/member1.jpg" alt=""></a>
+            <div class="cource-text">
+              <h4><a href="#">Mlle KOFFI AMENAN AMI</a> <span>$195</span></h4>
+              <p>Disciplines enseigées: <span>Math-Physique-Svt</span></p>
+              <p>Niveau enseigé: <span>6ieme à la 3ieme</span></p>
+              <p>Quartiers Visés: <span>COCODY-ANGRE-YOPOUGON</span></p>
+              <a href="details_repet.html" class="btn btn-small">Plus</a> 
+            </div>
           </div>
         </div>
       </div>

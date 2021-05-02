@@ -1,8 +1,5 @@
 /* --------------------------------------
-=========================================
-E-School - Professional Learning and Courses HTML5 Template
-Version: 1.0
-Designed By: UXLiner
+
 =========================================
 1. Header
 	+ logo
@@ -63,7 +60,7 @@ h4 a{
 }
 /* Logo */
 .navbar-brand.logo {
-	background: url(../images/logo.png) no-repeat left 12px;
+	background: url(../images/logo1.png) no-repeat left 12px;
 }
 
 /* Topbar 
@@ -459,7 +456,7 @@ ul.list-nav li i {
 	text-transform: uppercase;
 	transition: all 0.3s ease 0s;
 	z-index: 2;
-	background: rgba(27, 180, 185, 0.90);
+	background: #07862b;
 	border:none;
 }
 .btn::after {
@@ -479,22 +476,22 @@ ul.list-nav li i {
 	width: 101%;
 }
 .btn:hover {
-	background: rgba(27, 180, 185, 1);
+	background: #07862bcc;
 }
 .btn:focus {
 	outline: 0 none;
-	background: rgba(27, 180, 185, 0.90);
+	background: #07862b;
 	border:none;
 }
 .btn.btn-small {
-	background-color: #30babe;
+	background-color: #07862b;
 	border-radius: 30pxpx;
 	color: #fff;
 	font-size: 14px;
 	padding: 10px 20px;
 }
 .btn.btn-small::after {
-	background-color: #1fadb1;
+	background-color: #219b44;
 }
 .btn.btn-orange {
 	background-color: #db922a;
@@ -736,7 +733,7 @@ ul.social-icons li a:hover{
 	right: 20px;
 	display: none;
 	text-indent: -9999px;
-	background: #1bb4b9 url(../images/scroll-top-arrow.png) no-repeat 15px 14px;
+	background: #1aa742 url(../images/scroll-top-arrow.png) no-repeat 15px 14px;
 	z-index: 999;
 	border-radius: 5px;
 }

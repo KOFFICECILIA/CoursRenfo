@@ -655,6 +655,11 @@ ul.address-info li {
 	font-weight: bold;
 }
 
+.text-col-red{
+	color: #b91b1b;
+	font-weight: bold;
+}
+
 .price{
 	margin-left: 80px;
 	font-weight: bold;

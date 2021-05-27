@@ -117,8 +117,8 @@
             <fieldset>
               <div class="section">
                 <label class="input"> <i class="icon-append fa fa-user"></i>
-                  <input type="text" placeholder="Username" name="username">
-                  <b class="tooltip tooltip-bottom-right">Veuillez Entrer Votre Nom</b> </label>
+                  <input type="text" placeholder="Nom et Prénom" name="username">
+                  <b class="tooltip tooltip-bottom-right">Veuillez Entrer Votre Nom et Prénom</b> </label>
               </div>
               <div class="section">
                 <label class="input"> <i class="icon-append fa fa-envelope-o"></i>
@@ -131,7 +131,7 @@
                   <b class="tooltip tooltip-bottom-right">Veuillez Entrer Votre Numéro</b> </label>
               </div>
               <div class="section">
-                <label class="input"> <i class="icon-append fa fa-"></i>
+                <label class="input"> <i class="icon-append fa fa-card"></i>
                   <input type="text" placeholder="Numéro de pièce CNI" name="piece">
                   <b class="tooltip tooltip-bottom-right">Veuillez Entrer le Numéro de Votre Carte Nationale d'Identité</b> </label>
               </div>
@@ -147,19 +147,38 @@
               </div>
               <div class="section">
                 <label class="input"> <i class="icon-append fa fa-home"></i>
-                  <input type="text" placeholder="Commune / Quartier Visé" name="">
-                  <b class="tooltip tooltip-bottom-right">Veuillez Entrer Un Lieu</b> </label>
+                  <select class="form-control" style="border-radius:0; color:#666;">
+                    <option>Commune / Quartier Visé</option>
+                    <option>ABOBO-COCODY-YOPOUGON</option>
+                    <option>ABOBO-ANYAMA-ADJAME</option>
+                    <option>COCODY-ANGRE-PLATEAU</option>
+                    <option>BINGERVILLE-ANGRE-RIVERA</option>
+                    <option>BINGERVILLE-COCODY-ANGRE</option>
+                    <option>ANGRE-RIVERA-COCODY</option>
+                    <option>ANYAMA-ANGRE-COCODY</option>
+                  </select>
               </div>
               <div class="section">
                 <label class="input"> <i class="icon-append fa fa-"></i>
-                  <input type="text" placeholder="Niveau d'étude" name="">
-                  <b class="tooltip tooltip-bottom-right">Veuillez Entrer Votre Niveau d'étude</b> </label>
+                  <select class="form-control" style="border-radius:0; color:#666;">
+                    <option>--- Niveau d'étude ---</option>
+                    <option>BEPC</option>
+                    <option>BAC</option>
+                    <option>LICENCE</option>
+                    <option>MASTER</option>
+                  </select>
               </div>
               <div class="section">
                 <label class="input"> <i class="icon-append fa fa-user"></i>
                   <input type="text" placeholder="Disciplines Enseignés" name="">
                   <b class="tooltip tooltip-bottom-right">Veuillez Entrer les disciplines Enseignés</b> </label>
               </div>
+              <section>
+                <label class="label">Description et parcours scolaire</label>
+                <label class="textarea"> <i class="icon-append fa fa-comment"></i>
+                  <textarea rows="4" name="message" id="message"></textarea>
+                </label>
+              </section>
               <div class="section">
                 <label class="input"> <i class="icon-append fa fa-user"></i>
                   <input type="file" name="">
@@ -170,11 +189,12 @@
               <div class="section">
                 <label class="checkbox">
                   <input type="checkbox" id="terms" name="terms">
-                  <i></i>J'accepte les termes et conditions
+                  <i></i> <a href="conditions.html">J'accepte les termes et conditions</a>
                 </label>
               </div>
             </fieldset>
               <button class="btn button" type="submit">Envoyer</button>
+              <a class="button button-secondary" style='border-radius: 50px; margin-right: 4px;' href="login.html">CONNEXION</a>
           </form>
         </div>
       </div>

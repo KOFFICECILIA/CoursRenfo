@@ -253,6 +253,43 @@ ul.list-nav li i {
 .message-info{
 	font-size:25px;
 }
+
+/* =========== search form ============= */
+
+.form-inline .form-control{
+	width: 30rem;
+	margin-bottom: 5px;
+}
+
+.form-inline .btn-search{
+	border: none;
+	background-color: #07862b;
+	padding:7px;
+	color:white;
+	border-radius: 4px;
+}
+
+
+/* =========== profil page ============= */
+
+.profil-box{
+	padding:10px;
+	background-color: #fff;
+	margin-top: -180px;
+	border-radius: 7px ;
+}
+
+.profil-img{
+	height:15rem !important;
+	width: 15rem !important;
+	border-radius:50%;
+	border: 1px solid #07862b;
+}
+
+.d-flex{
+	display:flex
+}
+
 /* =========== cource ============= */
 
 .cource-box .cource-text{

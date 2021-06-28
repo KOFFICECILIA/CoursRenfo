@@ -40,8 +40,8 @@
           <div class="col-md-6 pull-left nodisplay">Call: +2 250 749 249 477</div>
           <div class="col-md-6 pull-right text-right">
             <ul class="top-right-list">
-              <li><a href="login.html"><i class="fa fa-lock"></i> Connexion</a></li>
-              <li><a href="register.html"><i class="fa fa-user"></i> Inscription</a> | </li>
+              <li><a href="connexion_parent.html"><i class="fa fa-lock"></i> Connexion</a></li>
+              <li><a href="demande.html"><i class="fa fa-user"></i> Inscription</a> | </li>
               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
             </ul>
@@ -61,10 +61,25 @@
                   <li class="search-parent"> <a href="javascript:void(0)" title=""><i aria-hidden="true" class="fa fa-search"></i></a>
                     <div class="search-box">
                       <div class="content">
-                        <div class="form-control">
-                          <input type="text" placeholder="Type to search" />
-                          <a href="#" class="search-btn"><i aria-hidden="true" class="fa fa-search"></i></a> </div>
-                        <a href="#" class="close-btn">x</a> </div>
+                        <form action="">
+                          <div class="form-inline">
+                            <input type="text"class="form-control" placeholder="Entrez Votre Ville">
+                            <input type="text"class="form-control" placeholder="Entrez la matière">
+                            <select name="" class="form-control" id="">
+                              <option value="">Selectionnez le niveau</option>
+                              <option value="">CP1/CP2</option>
+                              <option value="">CE1/CE2</option>
+                              <option value="">CM1/CM2</option>
+                              <option value="">6ieme/5ieme</option>
+                              <option value="">3ieme/2nde</option>
+                              <option value="">1ere/Tle</option>
+                            </select>
+                            <button class="btn-search">Recherche</button>
+                          </div>
+                          
+                        </form>
+                        <a href="#" class="close-btn">x</a> 
+                      </div>
                     </div>
                   </li>
                   <li class="visible-xs menu-icon"> <a href="javascript:void(0)" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false"> <i aria-hidden="true" class="fa fa-bars"></i> </a> </li>
